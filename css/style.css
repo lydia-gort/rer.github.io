@@ -1,0 +1,373 @@
+@font-face{
+	font-family: Designosaur-Italic;
+	src: url("../fonts/Designosaur-Italic.ttf");
+}
+
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #333333;
+}
+
+body p{
+	margin: 0;
+	padding: 0;
+}
+
+.text{
+	width: 940px;
+	margin: auto;
+}
+
+header{
+	height: 70px;
+	background: #5f3525;
+	box-shadow: 0px -1px 3px 4px #402419;
+	position: relative;
+}
+
+header p{
+	margin: 0;
+}
+
+#left{
+	float: left;
+	width: 220px;
+	padding-top: 2px; 
+}
+
+#left p{
+	font: normal normal 18px Calibri, sans-serif;
+	color: #fff;
+	margin-top: 10px;
+}
+
+#logo{
+	float: left;
+	width: 500px;
+	height: 70px;
+}
+
+#logo p{
+	margin-top: 2px;
+	text-align: center;
+}
+
+#logo p.log{
+	font: normal normal 18px Designosaur-Italic, "Calibri", sans-serif;
+	color: #c9764a;
+}
+
+#contact{
+	float: left;
+	width: 220px;
+}
+
+#contact p{
+	font: normal normal 20px Calibri, sans-serif;
+	color: #fff;
+	text-align: right;
+	margin-top: 2px;
+}
+
+#contact a{
+	float: right;
+	font: normal normal 14px Calibri, sans-serif;
+	color: #c9764a;
+}
+
+#contact a:hover{
+	color: #e7bf77;
+}
+
+.slider{
+	height: 380px;
+	background: #e7bf77;
+	text-align: center;
+}
+
+nav{
+	height: 45px;
+	background: #412015;
+	padding-top: 5px;
+}
+
+.text_1{
+	height: 40px;
+	width: 940px;
+	margin: auto;
+	background: #5f3525;
+}
+
+#topmenu{
+	padding: 0;
+	list-style: none;
+	float: left;
+	margin: 0;
+}
+
+#topmenu li{
+	float: left;
+	padding: 2px 0px 0px 56px;
+}
+
+#topmenu a{
+	font: normal normal 20px Calibri, sans-serif;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	padding: 4px 6px;
+}
+
+#topmenu a:hover, #topmenu a.active{
+	color: #f75828;
+}
+
+#index, #design, #repair{
+	background: #fff;
+	padding: 25px 0px;
+}
+
+h1{
+	margin: 0;
+	padding: 0px 0px 20px;
+	font: normal bold 24px Calibri, sans-serif;
+	color: #f75828;
+	text-align: center;
+}
+
+h2{
+	margin: 0;
+	padding: 0px 0px 20px;
+	font: normal bold 20px Calibri, sans-serif;
+	color: #412015;
+	text-align: center;
+}
+
+#index p, #design p, #repair p, .li, .li_number span{
+	font: normal normal 18px Calibri, sans-serif;
+	color: #5f3525;
+}
+
+.li{
+	list-style: square;
+}
+
+.li_number{
+	list-style: decimal;
+	color: #f75828;
+	font: bold normal 18px Calibri, sans-serif;
+}
+
+footer{
+	height: 60px;
+	background: #5f3525;
+	border-top: solid 5px #402419; 
+}
+
+.tel{
+	float: left;
+	width: 220px;
+	padding-top: 7px;
+}
+
+.tel p{
+	font: normal normal 18px Calibri, sans-serif;
+	color: #f5d89c;
+
+}
+
+.copyright{
+	float: left;
+	padding-top: 20px;
+	width: 500px;
+}
+
+.copyright p{
+	font: normal normal 14px Calibri, sans-serif;
+	color: #c9764a;
+	text-align: center;
+}
+
+.price{
+	float: right;
+	width: 220px;
+	padding-top: 9px;
+}
+
+.price p{
+	font: normal normal 14px Calibri, sans-serif;
+	text-align: right;
+	line-height: 20px;
+}
+
+.price a{
+	text-decoration: none;
+	color: #f5d89c;
+}
+
+.price a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+#form p{
+	padding-top: 0;
+	margin: 0;
+}
+
+#name, #phone{
+	float: left;
+}
+
+#phone{
+	padding-left: 30px;
+}
+
+
+
+#form input{	
+	outline: none;
+	border: 1px solid #b99554;
+	height: 24px;
+	width: 150px; 
+	padding-left: 5px;
+	color: #5f3525;
+}
+
+#form input:focus{
+	color: #f75828;
+	border: 1px solid #f75828;
+}
+
+label{
+	color: #5f3525;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.submit{
+	float: right;
+	border: 1px solid #f75828;
+    background: #f75828;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: normal normal 16px Calibri, sans-serif;
+    margin: 0 2px;
+    outline: medium none;
+	padding: 2px 8px 5px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.img{
+	text-align: center;
+}
+
+.img img{
+	margin-right: 3px;
+	width: 24%;
+	border: 1px solid  #f5d89c;
+}
+
+.img_port, .img_port_repair{
+	text-align: center;
+}
+
+.img_port img{
+	margin-top: 8px;
+	border: 2px ridge #e7bf77;
+	width: 48%;
+}
+
+.img_port_repair img{
+	margin-top: 8px;
+	border: 2px ridge #e7bf77;
+}
+
+img.one{
+	margin-right: 8px;
+}
+
+.img_port_repair img{
+	height: 306px;
+}
+
+.contact_text{
+	float: right;
+	width: 50%;
+	text-align: center;
+
+}
+
+.contact_form{
+	width: 50%;
+	text-align: right;
+}
+
+.contact_text span.q1{
+	font: normal normal 24px Calibri, sans-serif;
+
+}
+
+.contact_text a{
+	font: normal normal 18px Calibri, sans-serif;
+	color: #5f3525;
+	text-decoration: none;
+}
+
+.contact_text a:hover{
+    color: #f75828;
+    text-decoration: underline;
+}
+
+.contact_form{
+	text-align: right;
+}
+
+.contact_form input{
+	float: right;
+	margin-left: 30px;
+	margin-right: 70px;
+	height: 20px;
+	width: 180px;
+	outline: none;
+	border: 1px solid #5f3525;
+	padding-left: 5px;
+}
+
+.contact_form input:focus, .contact_form textarea:focus{
+	color: #f75828;
+	border: 1px solid #f75828;
+}
+
+.contact_form textarea{
+	width: 180px;
+	height: 50px;
+	float: right;
+	margin-left: 30px;
+	margin-right: 70px;
+	outline: none;
+	border: 1px solid #5f3525;
+}
+
+.contact_form p{
+	margin-bottom: 15px;
+}
+
+.submit_1{
+	margin-top: 15px;
+	margin-right: 140px;
+	border: 1px solid #f75828;
+    background: #f75828;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: normal normal 16px Calibri, sans-serif;
+    outline: medium none;
+	padding: 2px 8px 5px 8px;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>О студии Арт-сфера</title>
+	<meta name="description" content="Студия дизайна интерьера и ремонта "Арт-Сфера" в Санкт-Петербурге. Выполним ремонт или подготовим для вас дизайн-проект качественно и в срок." />
+    <meta name="keywords" content="Студия дизайна, дизайн и ремонт в Санкт-Петербурге, Арт-сфера, дизайн интерьера в Санкт-Петербурге, ремонт квартир, ремонт квартир в Санкт-Петербурге, ремонт квартир СПб, дизайн интерьера" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/reveal.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	<script src="js/common.js"></script>
+
+</head>
+<body>
+<div id="container">
+<header>
+	<div class="text">
+		<div id="left">
+			<p>Студия дизайна и ремонта <br />в Санкт-Петербурге</p>
+		</div>
+		<div id="logo">
+			<p><img src="img/logo.png" alt="логотип"></p>
+		</div>
+		<div id="contact">
+			<p>+7 (921) 638 97 40<br />+7 (981) 842 02 71</p>
+			<a href='#' class='contact' data-reveal-id="myModal">Перезвоните мне</a>
+			<div id="myModal" class="reveal-modal">
+			<h2>Оставьте ваш телефон и мы перезвоним вам</h2>
+			<form id="form" action="php/mail.php" method="post">
+				<p id="name">
+					<label>Имя:</label>
+					<input type="text" name="name" placeholder="Ваше имя" required />		
+				</p>
+				<p id="phone">
+					<label>Телефон:</label>
+					<input type="text" name="phone" placeholder="Ваш телефон" required />
+				</p>
+				
+					<button class="submit" type="submit">Отправить</button>
+				
+			</form>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+
+		</div>
+	</div>
+</header>
+
+<div class="slider">
+	<div class="text">
+		<img src="img/slider.png" alt="Дизайн интерьера">
+	</div>
+</div>
+
+<nav>
+	<div class="text_1">
+		<ul id="topmenu">
+			<li>
+				<a href="index.html" class="active">
+					<span>Главная</span>
+				</a>
+			</li>
+			<li>
+				<a href="design.html">
+					<span>Дизайн интерьера</span>
+				</a>
+			</li>
+			<li>
+				<a href="repair.html">
+				<span>Ремонт квартир</span>
+				</a>
+			</li>
+			<li>
+				<a href="portfolio.html">
+					<span>Портфолио</span>
+				</a>
+			</li>
+			<li>
+				<a href="contact.html">
+					<span>Контакты</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<main id="index">
+	<div class="text">
+		<h1>О студии "Арт-Сфера"</h1>
+		<p>
+			Студия дизайна и интерьера "Арт-Cфера" - компания, предоставляющая полный комплекс услуг по оформлению интерьера и ремонта квартир, домов, коммерческих площадей. Воспользовавшись нашими услугами, Вы останетесь довольны не только качеством, но и оперативностью работы!
+			Миссия нашей компании состоит в том, чтобы каждый клиент остался доволен проделанной нами работой. Талантливые дизайнеры создадут идеальный образ помещения, его творческую концепцию, а высококвалифицированные мастера превосходно ее воплотят.
+		</p>
+		<br />
+		<p>	
+			Наша студия может похвастаться положительными отзывами клиентов и большим объёмом проделанных работ. 
+		</p>
+		<p>	
+			"Арт-Cфера" выполнит ремонт и дизайн интерьеров полностью или начиная с любого этапа. Наш богатый опыт позволяет заниматься оформлением различных помещений - квартир, домов, коттеджей, офисов, ресторанов, магазинов и многого другого. Но, конечно же, хороший дизайн будет достойно смотреться только при качественном ремонте. Мастера нашей компании произведут его любой сложности, с возможностью ремонта «под ключ» и авторским надзором.
+		</p>
+	</div>
+</main>
+
+<footer>
+	<div class="text">
+		<div class="tel">
+			<p>+7 (921) 638 97 40<br />+7 (981) 842 02 71</p>
+		</div>
+		<div class="copyright">
+			<p>Copyright &copy; Арт-Сфера 2016. Все права защищены</p>
+		</div>
+		<div class="price">
+			<p>
+				<a href="#">скачать прайс на дизайн интерьера</a><br /><a href="#">скачать прайс на ремонт квартир</a>
+			</p>
+		</div>
+	</div>
+</footer>
+
+</div>	
+</body>
+</html>

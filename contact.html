@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Контакты</title>
+	<meta name="description" content="Способы связи с компанией "Арт-Сфера"" />
+    <meta name="keywords" content="заказать дизайн-проект интерьера, номер телефона студии дизайна интерьеров, номер телефона студии дизайна интерьеров в СПб, ремонт под ключ СПб, дизайн интерьера" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	<script src="js/common.js"></script>
+
+</head>
+<body>
+<div id="container">
+<header>
+	<div class="text">
+		<div id="left">
+			<p>Студия дизайна и ремонта <br />в Санкт-Петербурге</p>
+		</div>
+		<div id="logo">
+			<p><img src="img/logo.png" alt="логотип"></p>
+		</div>
+		<div id="contact">
+			<p>+7 (921) 638 97 40<br />+7 (981) 842 02 71</p>
+			<a href='#' class='contact' data-reveal-id="myModal">Перезвоните мне</a>
+			<div id="myModal" class="reveal-modal">
+			<h2>Оставьте ваш телефон и мы перезвоним вам</h2>
+			<form id="form" action="php/mail.php" method="post">
+				<p id="name">
+					<label>Имя:</label>
+					<input type="text" name="name" placeholder="Ваше имя" required />		
+				</p>
+				<p id="phone">
+					<label>Телефон:</label>
+					<input type="text" name="phone" placeholder="Ваш телефон" required />
+				</p>
+				
+					<button class="submit" type="submit">Отправить</button>
+				
+			</form>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+
+		</div>
+	</div>
+</header>
+
+<div class="slider">
+	<div class="text">
+		<img src="img/slider.png" alt="Дизайн интерьера">
+	</div>
+</div>
+
+<nav>
+	<div class="text_1">
+		<ul id="topmenu">
+			<li>
+				<a href="index.html">
+					<span>Главная</span>
+				</a>
+			</li>
+			<li>
+				<a href="design.html">
+					<span>Дизайн интерьера</span>
+				</a>
+			</li>
+			<li>
+				<a href="repair.html">
+				<span>Ремонт квартир</span>
+				</a>
+			</li>
+			<li>
+				<a href="portfolio.html">
+					<span>Портфолио</span>
+				</a>
+			</li>
+			<li>
+				<a href="contact.html" class="active">
+					<span>Контакты</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<main id="index">
+	<div class="text">
+		<h1>Остались вопросы?</h1>
+		<div class="contact_text">
+			<h2>Наши телефоны:</h2>
+			<p><span class="q1">+7 (921) 638 97 40</span></p>
+			<p><span class="q1">+7 (981) 842 02 71</span></p>
+			<p>звонить c 11:00 до 21:00</p>
+			<br />
+			<h2>Наши группы vk:</h2>
+			<p><a href="http://vk.com/club72315431" target="_blank">Ремонт квартир</a></p>
+			<p><a href="http://vk.com/artsfera_studio" target="_blank">Студия интерьера</a></p>
+			
+		</div>
+		<div class="form_message">
+		
+		<form class="contact_form" action="php/mail-config.php" method="post">
+		<h2>Напишите нам:</h2>
+		<p>
+            <label for="name">Имя:</label>
+            <input type="text"  name="name" placeholder="Имя" required />
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Email" required />
+        </p>
+        <p>
+            <label for="tel">Телефон:</label>
+            <input type="tel" name="tel" placeholder="Телефон"/>
+        </p>
+        <p>
+            <label for="message">Сообщение:</label>
+            <textarea name="message" required></textarea>
+        </p>
+		<input name="bezspama" type="text" style="display:none" value="" />
+		<br />
+        <p>
+        <button class="submit_1" type="submit">Отправить сообщение</button>
+    	</p>
+		</form>
+		</div>	
+		</div>
+		
+
+	</div>
+</main>
+
+<footer>
+	<div class="text">
+		<div class="tel">
+			<p>+7 (921) 638 97 40<br />+7 (981) 842 02 71</p>
+		</div>
+		<div class="copyright">
+			<p>Copyright &copy; Арт-Сфера 2016. Все права защищены</p>
+		</div>
+		<div class="price">
+			<p>
+				<a href="#">скачать прайс на дизайн интерьера</a><br /><a href="#">скачать прайс на ремонт квартир</a>
+			</p>
+		</div>
+	</div>
+</footer>
+
+</div>	
+</body>
+</html>
